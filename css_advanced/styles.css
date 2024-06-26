@@ -322,3 +322,6 @@ footer > section > p {
     opacity: 35.17%;
     transform: translateY(500%);
 }
+i.fa-brands.fa-facebook, i.fa-brands.fa-twitter, i.fa-brands.fa-instagram {
+    color: white; margin-left: 10px; width: 30px; height: 30px;
+}
