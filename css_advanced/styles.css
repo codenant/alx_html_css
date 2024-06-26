@@ -1,0 +1,324 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Source Sans Pro;
+}
+.header-banner {
+    width: 100%;
+    height: 152vh;
+    background-image: url(images/cover.png);
+    background-position: center;
+    background-size: contain;
+}
+nav {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+.welcome-banner {
+    width: 100%;
+    top: 50%;
+    color: white;
+    text-align: center;
+}
+.welcome-banner > h1 {
+    font-size: 120px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.welcome-banner > span {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 50px;
+    text-align: center;
+}
+button#register-1 {
+    display: block;
+    margin: auto; 
+    width: 162px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 150px;
+    background-color: #C271FF;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+div.learn-pros > h2 {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+div.learn-pros > h2 > span {
+    color: #C271FF;
+    font-weight: bold;
+}
+.pros-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1009px;
+    height: 237px;
+    margin: auto;
+    margin-top: 100px;
+}
+.pros-banner .pros {
+    width: 150px;
+    height: 237px;
+    text-align: center;
+}
+.pros h3 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+    line-height: 27px;
+}
+.pros p {
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 24px;
+}
+.pros > p > span {
+    display: block;
+    align-items: center;
+}
+.testimonials {
+    background-color: #C271FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 392px;
+    margin: auto;
+}
+.testimonials-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    gap: 50px;
+}
+.testimonials-banner > div > img {
+    height: 150px;
+    width: 150px;
+}
+.testimonials-banner > div > blockquote, h3, p {
+    color: white;
+    font-size: 22px;
+    line-height: 33.6px;
+}
+.testimonials-banner > div > blockquote {
+    padding-bottom: 30px;
+}
+.testimonials-banner > div > p {
+    font-style: italic;
+}
+#popular-tut {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: black;
+    font-weight: lighter;
+    font-size: 32px;
+    text-align: center;
+    transform: translateY(150%);
+}
+#popular-tut > span {
+    color: #C271FF;
+    font-weight: 600;
+}
+.tutorials {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* width: 100%; */
+    height: 623px;
+    /* margin: auto; */
+}
+div.tut-block > img {
+    height: 154px;
+    width: 255px;
+}
+img#play {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    position: absolute;
+    transform: translate(155%, -175%);
+}
+.tut-block > h3 {
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.tut-block > p {
+    color: black;
+    opacity: 50.16%;
+    font-size: 14px;
+    line-height: 24px;
+    height: 48px;
+    width: 242px;
+    margin-bottom: 15px;
+}
+.tutor {
+    display: flex;
+    justify-content: baseline;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.tutor > img {
+    height: 30px;
+    width: 30px;
+}
+.tutor > h4 {
+    color: #C271FF;
+    font-size: 14px;
+    line-height: 27px;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 110px;
+    /* height: 15px;
+    width: 107px; */
+}
+p#time {
+    color: #C271FF;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 27px;
+}
+.membership {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 503px;
+    background-color: #071629;
+    text-align: center;
+}
+.membership > div {
+    width: 257px;
+    height: 153px;
+}
+.membership > img {
+    width: 43.67px;
+    height: 35.35px;
+}
+.membership > div > h3 {
+    line-height: 60px;
+    font-weight: bold;
+}
+.membership > div > p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: lighter;
+}
+#free-mem {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    font-weight: lighter;
+    font-size: 32px;
+    text-align: center;
+    transform: translateY(250%);
+}
+#free-mem > span {
+    color: #C271FF;
+    font-weight: 600;
+}
+button#register-2 {
+    display: block;
+    margin: auto; 
+    width: 162px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+    margin-bottom: 150px;
+    background-color: #C271FF;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transform: translateY(-250%);
+}
+.faq {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: baseline; */
+    height: 859px;
+}
+h2#freq {
+    font-size: 60px;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    transform: translateY(-150%);
+}
+.faq > div > div > h3 {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
+    /* margin-top: -30px; */
+}
+.faq > div > div {
+    width: 350px;
+    /* height: 242px; */
+    line-height: 30px;
+    /* margin-bottom: 20px; */
+}
+div.question {
+    color: black;
+    opacity: 50.16%;
+    margin-bottom: 80px;
+}
+footer {
+    background-color: #071629;
+    height: 249px;
+}
+footer > section > div {
+    display: flex;
+    align-content: space-evenly;
+    justify-content: center;
+    gap: 650px;
+    transform: translateY(400%);
+}
+footer > section > div > img {
+    width: 169px;
+    height: 30px;
+}
+footer > section > p {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    opacity: 35.17%;
+    transform: translateY(500%);
+}

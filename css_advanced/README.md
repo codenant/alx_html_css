@@ -1,0 +1,1 @@
+This project was created using only HTML and CSS. It is a webpage for "SmileSchool" that provides different services including tutorials and membership options. The webpage is made up of five main sections: the landing page, testimonials, tutorials, membership, and frequently asked questions. Feel free to go through the website and leaving possible feedback. Thank you!
