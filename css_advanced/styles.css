@@ -308,7 +308,7 @@ footer > section > div {
     align-content: space-evenly;
     justify-content: center;
     gap: 650px;
-    transform: translateY(400%);
+    transform: translateY(350%);
 }
 footer > section > div > img {
     width: 169px;
@@ -322,6 +322,6 @@ footer > section > p {
     opacity: 35.17%;
     transform: translateY(500%);
 }
-i.fa-brands.fa-facebook, i.fa-brands.fa-twitter, i.fa-brands.fa-instagram {
+img.fa-brands.fa-facebook, img.fa-brands.fa-twitter, img.fa-brands.fa-instagram {
     color: white; margin-left: 10px; width: 30px; height: 30px;
 }
