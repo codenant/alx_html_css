@@ -1,0 +1,1 @@
+Holberton School is a headphones company that provides various sevices for it's costumers. This project was made entirely using only HTML and CSS without any libraries. The web application is compatible on desktop, tablets, and mobile phones.
