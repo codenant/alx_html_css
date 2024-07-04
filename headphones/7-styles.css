@@ -257,7 +257,7 @@ nav ul li a:hover {
     position: relative;
     padding-bottom: 80px;
 }
-.contact-form {
+form {
     display: block;
     align-items: center;
     width: 335px;
@@ -266,6 +266,30 @@ nav ul li a:hover {
     padding-bottom: 80px;
     text-align: left;
     /* transform: translateX(5%); */
+}
+form > label {
+    font-weight: 500;
+    color: #071629;
+}
+input {
+    width: 335px;
+    border: none;
+    border-bottom: #979797 solid 1px;
+    position: absolute;
+    opacity: .17;
+}
+form div {
+    padding-bottom: 10px;
+}
+/* .contact-form {
+    display: block;
+    align-items: center;
+    width: 335px;
+    margin: auto;
+    font-size: 14px;
+    padding-bottom: 80px;
+    text-align: left;
+    transform: translateX(5%);
 }
 .name > span, .email > span, .message > span {
     width: 335px;
@@ -280,7 +304,7 @@ nav ul li a:hover {
 h4 {
     padding-bottom: 10px;
     font-weight: 500;
-}
+} */
 .page-4 button {
         width: 162px;
         height: 44px;
@@ -429,10 +453,10 @@ footer > p {
         width: 100%;
     }
     .footer-container {
-        display: block;
-        /* transform: translateY(50%); */
-        transform: translateX(90%);
-        width: 170px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        transform: none;
+        align-items: center;
     }
     .headphones-logo {
         padding-top: 70px;
